@@ -12,7 +12,7 @@ import OrderConfirmation from "./_components/OrderConfirmation";
 
 export default function Home() {
 
-  const [confirming, setConfirming] = useState(true);
+  const [confirming, setConfirming] = useState(false);
   const [lines, setLines] = useState([] as LineItemType[]);
 
   return (
